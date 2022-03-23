@@ -6,6 +6,7 @@ let config = {
   // can use multiple entry
   entry: {
     training: './src/main/webapp/vue-app/Training/main.js',
+    second: './src/main/webapp/vue-app/Training/seconde.js',
   },
   output: {
     filename: 'js/[name].bundle.js',
