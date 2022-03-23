@@ -6,9 +6,9 @@
   <priority>4</priority>
   <page-nodes>
     <node>
-      <name>training</name>
-      <label>Trainging Page App</label>
-      <page-reference>portal::global::training</page-reference>
+      <name>second</name>
+      <label>second Page App</label>
+      <page-reference>portal::global::seconde</page-reference>
     </node>
   </page-nodes>
 </node-navigation>

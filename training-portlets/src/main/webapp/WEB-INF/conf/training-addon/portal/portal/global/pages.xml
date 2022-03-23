@@ -4,21 +4,22 @@
         xsi:schemaLocation="http://www.gatein.org/xml/ns/gatein_objects_1_6 http://www.gatein.org/xml/ns/gatein_objects_1_6"
         xmlns="http://www.gatein.org/xml/ns/gatein_objects_1_6">
   <page>
-    <name>training</name>
-    <title>Training App</title>
+    <name>seconde</name>
+    <title>Second App</title>
     <access-permissions>*:/platform/users</access-permissions>
     <edit-permission>*:/platform/administrators</edit-permission>
     <container template="system:/groovy/portal/webui/container/UIContainer.gtmpl">
       <access-permissions>*:/platform/users</access-permissions>
       <portlet-application>
         <portlet>
-          <application-ref>training</application-ref>
-          <portlet-ref>trainingPortlet</portlet-ref>
+          <application-ref>seconde</application-ref>
+          <portlet-ref>secondePortlet</portlet-ref>
         </portlet>
-        <title>Training Page Sample</title>
+        <title>Second Page Sample</title>
         <access-permissions>*:/platform/users</access-permissions>
         <show-info-bar>false</show-info-bar>
       </portlet-application>
     </container>
   </page>
+
 </page-set>
