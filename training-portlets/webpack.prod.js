@@ -3,7 +3,7 @@ const merge = require('webpack-merge');
 const webpackCommonConfig = require('./webpack.common.js');
 
 // the display name of the war
-const app = 'training';
+const app = 'first-Portlet';
 
 const config = merge(webpackCommonConfig, {
   output: {

@@ -3,7 +3,7 @@ const merge = require('webpack-merge');
 const webpackCommonConfig = require('./webpack.common.js');
 
 // the display name of the war
-const app = 'training';
+const app = 'first-Portlet';
 
 // add the server path to your server location path
 const exoServerPath = "/home/exo/work/binaries/platform-6.3.x-SNAPSHOT";
